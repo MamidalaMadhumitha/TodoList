@@ -8,7 +8,7 @@ function ToDoItem(props){
     return (
         <>
             <div className="flex justify-center mt-8" >
-                <input className="text-xl border-black bg-white text-black p-1" type="text" placeholder="Enter the Todo Item" value={inputText}
+                <input className="rounded-md text-xl border-black bg-white text-black p-1" type="text" placeholder="Enter the Todo Item" value={inputText}
                  onChange={(e) => setinputText(e.target.value)} 
                 
                  /> &nbsp;
