@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style-type:none;
+}
+.details {
+  width: 450px;
+  height: 400px;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.faTrash:hover{
+  color: rgb(17, 16, 16);
+}
+.faTrash{
+  transform: scale(1.10);
+
+}
